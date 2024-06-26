@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="40dp"
+    android:background="@drawable/customviencam"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="#FF9800"
+        android:text="Sửa Sản Phẩm " />
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/vienthemanh"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivSuaAnh"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/baseline_add_24" />
+    </LinearLayout>
+
+        <EditText
+            android:id="@+id/edtTensuasp"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/customnonbackground"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Nhập tên Mới"/>
+
+        <EditText
+            android:id="@+id/edtGiasuasp"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/customnonbackground"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Nhập giá  Mới"/>
+
+        <Spinner
+            android:id="@+id/spinnersp"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/customnonbackground" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center">
+            <Button
+                android:id="@+id/btSuasp"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FF7A00"
+                android:layout_marginRight="10dp"
+                android:text="Sửa " />
+
+            <Button
+                android:id="@+id/btbacksp"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FF7A00"
+                android:text="Quay Lại  " />
+        </LinearLayout>
+
+</LinearLayout>

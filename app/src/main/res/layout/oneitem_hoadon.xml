@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    android:backgroundTint="#D6D4D4">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cửa hàng ProSushi"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Hân hạnh được phục vụ quý khách!"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textStyle="italic"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HÓA ĐƠN"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/tvmahd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mã hóa đơn : #getMahd"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/tvmakh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mã khách hàng : #getMakh"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/tvngaytao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ngày tạo : dd/mm/yyyy"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="15sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thành tiền : "
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/tvtongtien"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#getTongtien VND"
+                android:layout_gravity="end"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btXacNhan"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FF9800"
+                android:text="Xác nhận "/>
+            <Button
+                android:id="@+id/btGiaoHang"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:backgroundTint="#4CAF50"
+                android:text="Giao hàng "/>
+            <Button
+                android:id="@+id/btHuy"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:backgroundTint="#F44336"
+                android:text="Hủy đơn "/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tvTrangThai"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Trạng thái : "
+            android:textStyle="bold"
+            android:textSize="14sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cám ơn quý khách!"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textStyle="italic"/>
+        <TextView
+            android:id="@+id/tvpress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/presshere"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textStyle="italic"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        app:backgroundTint="@null"
+        android:background="@drawable/cardcustom">
+        
+        <ImageView
+            android:id="@+id/ivAnhGio"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/imagecustom"
+            android:src="@drawable/imagecart"/>
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="7dp"
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tên sản phẩm :"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tvnameproduct"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_marginLeft="5dp"
+                android:text="sushi origamy"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/tvpriceproduct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="200000 VND"
+                android:paddingLeft="5dp"
+                android:textColor="#F44336"/>
+            <LinearLayout
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                app:backgroundTint="@null"
+                android:background="@drawable/cardcustom"
+                android:layout_gravity="center">
+                <ImageView
+                    android:id="@+id/imvminusproduct"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/iconminus"
+                    app:backgroundTint="@null"
+                    android:background="@drawable/cardcustom"/>
+
+                <TextView
+                    android:id="@+id/tvcostproduct"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="1"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="20dp"/>
+                <ImageView
+                    android:id="@+id/imvaddproduct"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/baseline_add_30"
+                    app:backgroundTint="@null"
+                    android:background="@drawable/cardcustom"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btndeleteproduct"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn2custom"
+            android:backgroundTint="#F44336"
+            android:text="Xóa"
+            android:textSize="12sp"
+            app:backgroundTint="@null"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "866065800725",
+    "firebase_url": "https://prosuhi-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "prosuhi",
+    "storage_bucket": "prosuhi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866065800725:android:853dda9be6b19c02c1f81c",
+        "android_client_info": {
+          "package_name": "com.example.prosushi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKnd3cmsySWNaW7KzIM2tpOp9x2uXrFFo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
