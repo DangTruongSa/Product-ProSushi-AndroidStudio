@@ -27,6 +27,8 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 
 public class LoginAc extends AppCompatActivity {
+
+    //firebse is Off
     Button btnlogin, nd1, nd2;
     EditText edttk, edtmk;
     TextView register;
